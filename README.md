@@ -6,7 +6,7 @@ AndroidStudio使用gradle来编译项目，当我们需要使用第三方lib库�
 3）将app的gradle文件中的 applicationId "你的报名" 这个代码去掉，因为它是一个lib库，applicationId跟随引用它的主项目，lib库不需要applicationId<br/>
 4）去掉AndroidManifest.xml文件中的主Activity配置<br/>
 
-## 2、上传lib项目到github上，具体步骤请百度
+## 2、同步lib项目到github上，具体步骤请百度
 这里可参考 http://blog.csdn.net/lyj1005353553/article/details/55518608 
 
 ## 3、将github上的项目生成gradle引用
