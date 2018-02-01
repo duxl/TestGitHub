@@ -9,4 +9,7 @@ AndroidStudio使用gradle来编译项目，当我们需要使用第三方lib库�
 ## 2、同步lib项目到github上，具体步骤请百度
 这里可参考 http://blog.csdn.net/lyj1005353553/article/details/55518608 
 
-## 3、将github上的项目生成gradle引用
+## 3、 发布项目到JitPack（将github上的项目生成gradle引用）
+1）进入 JitPack(https://jitpack.io/ "点击转到JitPack")，使用 GitHub 账号登录
+2) 输入要发不的github项目名称，例如 duxl/mobileframe-lib 然后点击【Look up】
+3) 点击Git it 可以查看 Gradle 的依赖配置说明
